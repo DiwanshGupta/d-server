@@ -10,7 +10,7 @@ const connectDB = require("./utility/db");
 require("dotenv").config();
 const Cors = require("cors");
 const corseoptions = {
-  origin: "http://localhost:5173",
+  origin: "https://dmern.vercel.app/",
   methods: "GET,PUT,DELETE,POST,PATCH,HEAD,OPTIONS",
   credentials: true,
 };
