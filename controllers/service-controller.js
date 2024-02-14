@@ -7,7 +7,8 @@ const services = async (req, res) => {
             return res.status(404).json({msg: "no service found"});
         }else{
             res.status(200).json({response});
-        
+     }
+    
   } catch (error) {
    return res.status(500).json({message: error});
   }
